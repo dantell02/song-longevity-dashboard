@@ -1,0 +1,15 @@
+{
+  "notebook": "idil_I2pdp_final(2).ipynb",
+  "generated_at": "2026-10-07T12:57:31+00:00",
+  "target": "log1p(streams_3yr)",
+  "split": "80/20 train/test, random_state=42",
+  "includes_tiktok": false,
+  "excluded_post_release": [
+    "first_month_streams",
+    "playlist_adds_first_month",
+    "editorial_playlist",
+    "tiktok_virality"
+  ],
+  "scenario_grid_model": "Polynomial Regression (marketing + marketing^2); other features at median / mode (genre = most common), levels = 25th / 50th / 75th percentile",
+  "notes": "TikTok virality, playlist adds, editorial playlist and first-month streams are excluded because they are only known after release."
+}

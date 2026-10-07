@@ -1,0 +1,8 @@
+model_id,model_label,r2,adj_r2,n,includes_genre,includes_label,includes_listeners,includes_tiktok,includes_audio
+N1,(1) Marketing only,0.0453834987429621,0.045362284100061045,45000,False,False,False,False,False
+N2,(2) + Genre,0.04560160346838338,0.04543189870137976,45000,True,False,False,False,False
+N3,(3) + Label tier & prior listeners,0.135964731909211,0.13575346695079993,45000,True,True,True,False,False
+N4,(4) + TikTok virality,0.25136047313909926,0.25116077824229943,45000,True,True,True,True,False
+N5,(5) Full model (+ featured artist & audio),0.2568195115300105,0.256489054877586,45000,True,True,True,True,True
+I_label,Marketing × Label tier,0.13605690274328142,0.13580724150946788,45000,True,True,True,False,False
+I_genre,Marketing × Genre,0.13604738167590547,0.13570165465494488,45000,True,True,True,False,False

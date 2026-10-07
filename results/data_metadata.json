@@ -1,0 +1,12 @@
+{
+  "script": "export_data_overview.py",
+  "generated_at": "2026-10-07T13:22:54+00:00",
+  "source": "raw-data/song_longevity.csv",
+  "n_songs": 45000,
+  "n_columns": 21,
+  "n_missing": 0,
+  "hit_threshold_streams": 811500,
+  "slow_burner_halflife_days": 150,
+  "hit_rate": 0.1,
+  "slow_burner_rate": 0.09908888888888889
+}

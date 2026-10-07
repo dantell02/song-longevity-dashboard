@@ -1,0 +1,25 @@
+model,feature,importance,group
+Linear Regression,label_tier,0.11014058943465148,label
+Linear Regression,log_artist_prior_listeners,0.08073114978207911,artist
+Linear Regression,marketing_budget,0.05658722608125581,distribution
+Linear Regression,featured_artist,0.0027427858965402008,artist
+Linear Regression,energy,0.0019495930125748018,audio
+Linear Regression,instrumentalness,0.0014797137520935477,audio
+Linear Regression,danceability,0.0008034358020650112,audio
+Linear Regression,genre,0.0002930660744626001,genre
+Linear Regression,tempo_bpm,0.000236864457153918,audio
+Linear Regression,acousticness,0.00022318823960547628,audio
+Linear Regression,song_length_sec,1.7691630322080877e-05,audio
+Linear Regression,valence,1.6560864786496764e-05,audio
+Random Forest,label_tier,0.11070493643200503,label
+Random Forest,log_artist_prior_listeners,0.08095202701162212,artist
+Random Forest,marketing_budget,0.05806717964674091,distribution
+Random Forest,song_length_sec,0.005401206709602047,audio
+Random Forest,featured_artist,0.0034132375812380156,artist
+Random Forest,energy,0.0028679491211589304,audio
+Random Forest,instrumentalness,0.0013438308382116792,audio
+Random Forest,valence,0.001056490539979893,audio
+Random Forest,genre,0.0010382313735966431,genre
+Random Forest,danceability,0.00014867369696838217,audio
+Random Forest,acousticness,-0.0017528682444890142,audio
+Random Forest,tempo_bpm,-0.002228553370943742,audio

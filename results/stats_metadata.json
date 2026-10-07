@@ -1,0 +1,8 @@
+{
+  "notebook": "Jakob_i2pdp.ipynb",
+  "generated_at": "2026-10-07T12:52:32+00:00",
+  "target": "log(streams_3yr)",
+  "estimator": "OLS with HC3 robust standard errors (logit for genre hit probability)",
+  "includes_tiktok": true,
+  "notes": "Models N4 and N5 include TikTok virality. The ML notebook excludes it as post-release information. log_listeners is an elasticity, so pct_effect is left empty for it."
+}

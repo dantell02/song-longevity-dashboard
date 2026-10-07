@@ -1,0 +1,4 @@
+label_tier,n,median_marketing,median_listeners,median_streams,hit_rate
+independent,18724,1.09,8100.0,30400.0,0.05346079897457808
+indie_label,12661,1.08,8000.0,49700.0,0.09240976226206461
+major,13615,1.68,7900.0,112500.0,0.1710613294160852

@@ -1,0 +1,17 @@
+# Environment and editor
+.venv/
+.idea/
+.vscode/
+.DS_Store
+
+# Caches
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Raw Kaggle data: not needed by the app; download it from Kaggle to re-run the notebooks
+raw-data/
+
+# Notebook backups
+backups/

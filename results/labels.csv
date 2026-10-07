@@ -1,0 +1,38 @@
+kind,key,display_name,group
+variable,marketing_budget,Marketing budget,distribution
+variable,marketing_budget_squared,Marketing budget²,distribution
+variable,tiktok_virality,TikTok virality,distribution
+variable,playlist_adds_first_month,Playlist adds (first month),distribution
+variable,editorial_playlist,Editorial playlist,distribution
+variable,label_tier,Label tier,label
+variable,genre,Genre,genre
+variable,artist_prior_monthly_listeners,Artist's prior monthly listeners,artist
+variable,log_artist_prior_listeners,Artist's prior listeners (log),artist
+variable,log_listeners,Artist's prior listeners (log),artist
+variable,featured_artist,Featured artist,artist
+variable,energy,Energy,audio
+variable,valence,Valence (positivity),audio
+variable,danceability,Danceability,audio
+variable,acousticness,Acousticness,audio
+variable,instrumentalness,Instrumentalness,audio
+variable,tempo_bpm,Tempo (BPM),audio
+variable,song_length_sec,Song length (sec),audio
+variable,remainder__marketing_x_energy,Marketing × Energy,interaction
+variable,remainder__marketing_x_instrumentalness,Marketing × Instrumentalness,interaction
+variable,streams_3yr,3-year streams,outcome
+variable,log_streams_3yr,3-year streams (log),outcome
+variable,first_month_streams,First-month streams,outcome
+variable,halflife_days,Popularity half-life (days),outcome
+variable,slow_burner,Slow burner,outcome
+variable,is_hit,Hit (top 10%),outcome
+value,independent,Independent,label
+value,indie_label,Indie label,label
+value,major,Major label,label
+value,pop,Pop,genre
+value,hiphop,Hip-hop,genre
+value,edm,EDM,genre
+value,rock,Rock,genre
+value,latin,Latin,genre
+value,rnb,R&B,genre
+value,country,Country,genre
+value,indie,Indie,genre
